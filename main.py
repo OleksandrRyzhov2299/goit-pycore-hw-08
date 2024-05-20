@@ -76,7 +76,7 @@ def birthdays(book: AddressBook) -> str:
 
 
 def main():
-    book = AddressBook()
+    #book = AddressBook()
 
     data = load_data("data.pkl")
     book = data["contacts"]
